@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0; 
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(dog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  div {
+      width: 20vh;
+      height: 20vh;
+      opacity: 50%;
+      margin: 0;
+  }
+ p {
+       color: white;
+       opacity: 100%;
+       font-size: medium;
+  }
+  #page-credit {
+    position: absolute;
+    bottom: 10vh;
+    left: 5vh;
+    z-index: 1;
+    font-weight: 900;
+  }
+  #music-credit {
+    position: absolute;
+    bottom: 5vh;
+    left: 5vh;
+    z-index: 1;
+    font-weight: 500;
+  }
+
+  
