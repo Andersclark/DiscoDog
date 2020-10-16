@@ -1,12 +1,9 @@
+const MINCOLOR = parseInt("000000", 16);
+const MAXCOLOR = parseInt("FFFFFF", 16);
 
 function randomColor(){
-    const HEXDIGITS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F'];
-    let color = ['#'];
-    for(let i=0; i<6; i++){
-        color.push(HEXDIGITS[Math.floor(Math.random()*HEXDIGITS.length)])
-    }  
-    color = color.join('')
-    return color;
+    let colorstring = "#" + (Math.floor(Math.random()*MAXCOLOR)+MINCOLOR).toString(16);
+    return colorstring;
 }
 
 function colorElements(HTMLCollection, colorfunction){
