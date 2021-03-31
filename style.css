@@ -19,16 +19,6 @@ html, body {
   #dance-floor {
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  #dance-floor div {
-      width: 20vw;
-      height: 20vw;
-      opacity: 50%;
-      margin: 0;
   }
 
  p {
